@@ -1,4 +1,4 @@
-# [Database tech test](https://github.com/makersacademy/course/blob/master/individual_challenges/tech_test_repo_checklist.md)
+# [Database tech test](https://github.com/makersacademy/course/blob/master/individual_challenges/database_server.md)
 
 Click the title for a summary of this challenge.
 
