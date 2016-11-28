@@ -1,5 +1,5 @@
-# [Database server tech test](https://github.com/makersacademy/course/blob/master/individual_challenges/database_server.md)
+# On Sinatra
 
-Check the branches for implementations of this problem on different technologies.
 
-* [Sinatra]()
+
+[Return to master](https://github.com/Tomy8s/tech_test_database)
