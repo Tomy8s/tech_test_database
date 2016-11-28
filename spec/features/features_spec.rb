@@ -10,9 +10,8 @@ describe Database do
 
   context 'displaying on /get?' do
     scenario 'displays key' do
-      visit '/set?key=mykey'
-      expect(current_path).to eq '/get?key=mykey'
-      expect(page).to eq 'mykey'
+      visit '/set?mykey=myval'
+      expect(page).to eq 'myval'
     end
   end
 end

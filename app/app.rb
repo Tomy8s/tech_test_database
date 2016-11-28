@@ -3,18 +3,13 @@ require 'sinatra'
 require_relative 'HashData.rb'
 
 class Database < Sinatra::Base
-
-  get '/' do
-  end
-
   get '/set' do
-    "Hello"
     HashData.create(hash_key: params.keys[0], hash_value: params.values[0])
-    redirect '/get'
+    redirect "/get?key=#{params.keys[0]}"
   end
 
   get '/get' do
-    "#{params[:key]}"
+    HashData.first(hash_key: params[:key]).hash_value
   end
 
   set :port, 4000
